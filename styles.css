@@ -1,0 +1,51 @@
+div.container div a.menu_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Opens sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5vh;
+    height: 5rem;
+    border-width: 3px;
+    cursor:pointer;
+    border-radius: 0.7em;
+}
+
+div.container div a.menu_btn:last-of-type{
+    margin-bottom:auto;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight:500;
+    color: whitesmoke;
+}
+
+#form_container{
+    background-color: rgb(245, 245, 245);
+    border-radius: 1em;
+    border: 1px solid   rgb(189, 189, 189);
+    padding: 25px;
+    max-width: 700px;
+}
+#div-registro-regresar{
+    display: flex;
+    justify-content: flex-end;
+}
+#btn_registro_regresar{
+    margin: 30px 20px;
+    align-self: flex-end;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+#consulta-contenedor{
+    max-width: 700px;
+}
+
+
